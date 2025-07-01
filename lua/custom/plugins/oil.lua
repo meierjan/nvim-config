@@ -12,6 +12,9 @@ return {
         ['<C-h>'] = false, -- Disable Ctrl-h
         ['<C-l>'] = false, -- Disable Ctrl-l
       },
+      win_options = {
+        signcolumn = 'yes:2',
+      },
     },
     event = { 'VimEnter */*,.*', 'BufNew */*,.*' },
     -- Optional dependencies
